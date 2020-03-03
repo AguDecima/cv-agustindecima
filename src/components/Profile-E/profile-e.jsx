@@ -9,7 +9,7 @@ import {
     faGuitar, faPlane, faGamepad, faFutbol, faCode
 } from '@fortawesome/free-solid-svg-icons'
 
-const Profile = () => {
+const ProfileE = () => {
     return (
         <div class="profile">
             <div class="text-center">
@@ -103,4 +103,4 @@ const Profile = () => {
     );
 }
 
-export default Profile;
+export default ProfileE;

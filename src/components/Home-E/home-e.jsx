@@ -6,7 +6,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faIdCard , faIndustry, faBook, faPencilAlt, faNetworkWired, 
         faArchive, faProjectDiagram, faArrowAltCircleRight} from '@fortawesome/free-solid-svg-icons'
 
-const Home = () => {
+const HomeE = () => {
     return ( 
         <div className="container">
             <div className="titulo">
@@ -36,15 +36,15 @@ const Home = () => {
                     Hibernate, Node JS and Postgres for Backend developing API Rest, and Angular with Bootstrap for the FrontEnd.<br/>
                     <br/><FontAwesomeIcon  icon={faProjectDiagram} /> Projects:
                     <div className="m-3">
-                         <p><FontAwesomeIcon  icon={faArrowAltCircleRight}/> <b>Self-Management System:</b> 
-                         Destined for users attending the entity, to request tickets, shifts, consult files, 
+                         <p><FontAwesomeIcon  icon={faArrowAltCircleRight}/> <b>Self-Management System: </b> 
+                          Destined for users attending the entity, to request tickets, shifts, consult files, 
                          notifications to the user through text messages. This project was carried out completely 
                          from the bases, the technologies used for the backend were Node Js with Express which 
                          connected to an existing database made in Postgres and SQL Server, with a JSON Web Token 
                          security. Angular 6.x was used for the Front-End.
                          </p>
                          <p><FontAwesomeIcon  icon={faArrowAltCircleRight}/> <b>Backend Procedures System: </b>
-                         In this project we worked with Spring Boot, hibernate and postgres, I had to manage an ABM 
+                          In this project we worked with Spring Boot, hibernate and postgres, I had to manage an ABM 
                          of users who had assigned permissions, which determined what type of procedures the user 
                          could perform. In this way from the client application you could determine what options to 
                          display.
@@ -97,7 +97,7 @@ const Home = () => {
             </div>
 
             <div className="section">
-                <h1 class="display-5">OT <FontAwesomeIcon  icon={faArchive} /></h1><hr/>
+                <h1 class="display-5">OTHER DATA <FontAwesomeIcon  icon={faArchive} /></h1><hr/>
                 <h3><a className="text-muted" href="https://drive.google.com/file/d/1UUusky9MyncR9wH27YrfjouWUBPuGTgJ/view">- Java 111 Programmers Certification</a></h3>
                 <h3><a className="text-muted" href="https://drive.google.com/file/d/1Miw4apPPxZwSPgeF7tw8ripzAKrwl91r/view">- Android Course</a></h3>
                 <h3 className="text-muted" >- Participant in programming tournaments (TAP, IEEE, RPC) and training 2018 of the Training Camp taught at the UBA (University of Buenos Aires).</h3>
@@ -109,4 +109,4 @@ const Home = () => {
      );
 }
  
-export default Home;
+export default HomeE;
