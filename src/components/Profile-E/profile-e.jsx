@@ -15,18 +15,18 @@ const Profile = () => {
             <div class="text-center">
                 <img src={ProfileImage} alt="imagen de contacto" className="img-fluid redondo" />
                 <div className="margen">
-                    <button type="button" class="btn btn-danger btn-lg  m-3">CONTACTO</button>
+                    <button type="button" class="btn btn-danger btn-lg  m-3">CONTACT</button>
                     <div className="text-white">
                         <h4> <FontAwesomeIcon icon={faMailBulk} /> <a href="mailto:agudecima@gmail.com">agudecima@gmail.com</a> </h4>
-                        <h4> <FontAwesomeIcon icon={faUser} /> <a href="https://www.linkedin.com/in/agustin-decima-05289864"> Perfil Linkedin</a> </h4>
-                        <h4> <FontAwesomeIcon icon={faCode} /> <a href="https://github.com/AguDecima"> Perfil GitHub</a> </h4>
+                        <h4> <FontAwesomeIcon icon={faUser} /> <a href="https://www.linkedin.com/in/agustin-decima-05289864"> Linkedin Profile</a> </h4>
+                        <h4> <FontAwesomeIcon icon={faCode} /> <a href="https://github.com/AguDecima"> GitHub Profile</a> </h4>
                         <h4> <FontAwesomeIcon icon={faPhone} /> <a href="https://wa.me/543814665043">+543814665043 </a> </h4>
                         <h4> <FontAwesomeIcon icon={faMap} /> <a href="https://goo.gl/maps/DoaBVfWLXDUS4cRF8"> San Miguel de Tucuman - Argentina </a> </h4>
                     </div>
                 </div>
 
                 <div className="margen">
-                    <button type="button" class="btn btn-primary btn-lg m-3">HABILIDADES</button>
+                    <button type="button" class="btn btn-primary btn-lg m-3">SKILLS</button>
                     <div className="text-white">
                         <h4 className="text-left m-3">SPRING BOOT - HIBERNATE  75%</h4>
                         <div class="progress m-3">
@@ -68,12 +68,12 @@ const Profile = () => {
                             <div class="progress-bar progress-bar-striped bg-success" role="progressbar" style={{ width: 270 }} aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
                         </div>
 
-                        <h4 className="text-left m-3">Servidores Linux 70%</h4>
+                        <h4 className="text-left m-3">Linux Servers 70%</h4>
                         <div class="progress m-3">
                             <div class="progress-bar progress-bar-striped bg-danger" role="progressbar" style={{ width: 250 }} aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
                         </div>
 
-                        <h4 className="text-left m-3">Metodolodias Agiles 65%</h4>
+                        <h4 className="text-left m-3">Agile Methodologies - SCRUM 65%</h4>
                         <div class="progress m-3">
                             <div class="progress-bar progress-bar-striped bg-primary" role="progressbar" style={{ width: 240 }} aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
                         </div>
@@ -82,10 +82,10 @@ const Profile = () => {
                 </div>
 
                 <div className="margen">
-                    <button type="button" class="btn btn-success btn-lg m-3">IDIOMAS</button>
+                    <button type="button" class="btn btn-success btn-lg m-3">LANGUAGES</button>
                     <div className="text-white text-canter m-3">
-                        <h4> <FontAwesomeIcon icon={faLanguage} /> Español - Nativo</h4>
-                        <h4> <FontAwesomeIcon icon={faLanguage} /> Ingles - Nivel Medio </h4>
+                        <h4> <FontAwesomeIcon icon={faLanguage} /> Native Spanich</h4>
+                        <h4> <FontAwesomeIcon icon={faLanguage} /> English - Middle Level </h4>
                     </div>
                 </div>
 

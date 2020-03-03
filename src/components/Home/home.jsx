@@ -64,7 +64,7 @@ const Home = () => {
                          <p><FontAwesomeIcon  icon={faArrowAltCircleRight}/> <b>Sistema Web de Facturacion: </b>
                             Proyecto realizado con Spring boot ,hiberate, Git y MySQL, se implemento Spring Security junto a Oauth2 para la seguridad,
                             el sistema maneja ventas, detalles de ventas, usuarios con distintos permisos, productos. Para el front-end se usa React JS, Redux junto a Bootstrap para el diseño, hoy en dia este
-                            proyecto aun sigue con soporte y desarrollo.
+                            proyecto aun sigue con soporte y desarrollo. Se encuentra desplegado en Digital Ocean
                          </p>
                          <p><FontAwesomeIcon  icon={faArrowAltCircleRight}/> <b>Sistema Desktop Barrios Privados: </b>
                             Proyecto realizado en Visual Basic para el manejo de empleados, pago de expensas por lotes y espacios publicos

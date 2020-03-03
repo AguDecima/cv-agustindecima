@@ -1,0 +1,28 @@
+.redondo {
+    margin-top: 3em;
+    border-radius: 15em;
+    height: 300px;
+    width: 300px;
+}
+
+.btn {
+    width: 300px;
+}
+
+.profile {
+    background: #212121;
+    height: 100%;
+    width: 100%;
+}
+
+.relleno {
+    color: #212121;
+}
+
+a {
+    color: white;
+}
+
+.margen {
+    margin-top: 6em;
+}
