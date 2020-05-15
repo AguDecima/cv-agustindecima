@@ -6,7 +6,7 @@ import './profile.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {
     faMailBulk, faUser, faPhone, faMap, faLanguage, faRunning,
-    faGuitar, faPlane, faGamepad, faFutbol, faCode
+    faGuitar, faPlane, faGamepad, faFutbol, faCode, faServer, faNetworkWired, faMobile, faDatabase, faCat, faScroll, faChartBar
 } from '@fortawesome/free-solid-svg-icons'
 
 const ProfileE = () => {
@@ -19,7 +19,7 @@ const ProfileE = () => {
                     <div className="text-white">
                         <h4> <FontAwesomeIcon icon={faMailBulk} /> <a href="mailto:agudecima@gmail.com">agudecima@gmail.com</a> </h4>
                         <h4> <FontAwesomeIcon icon={faUser} /> <a href="https://www.linkedin.com/in/agustin-decima-05289864"> Linkedin Profile</a> </h4>
-                        <h4> <FontAwesomeIcon icon={faCode} /> <a href="https://github.com/AguDecima"> GitHub Profile</a> </h4>
+                        <h4> <FontAwesomeIcon icon={faCode} /> <a href="https://github.com/AguDecima?tab=repositories"> GitHub Profile</a> </h4>
                         <h4> <FontAwesomeIcon icon={faPhone} /> <a href="https://wa.me/543814665043">+543814665043 </a> </h4>
                         <h4> <FontAwesomeIcon icon={faMap} /> <a href="https://goo.gl/maps/DoaBVfWLXDUS4cRF8"> San Miguel de Tucuman - Argentina </a> </h4>
                     </div>
@@ -28,54 +28,44 @@ const ProfileE = () => {
                 <div className="margen">
                     <button type="button" class="btn btn-primary btn-lg m-3">SKILLS</button>
                     <div className="text-white">
-                        <h4 className="text-left m-3">SPRING BOOT - HIBERNATE  75%</h4>
+                        <h4 className="text-left m-3">SPRING BOOT - HIBERNATE <FontAwesomeIcon icon={faChartBar} /> </h4>
                         <div class="progress m-3">
-                            <div class="progress-bar progress-bar-striped bg-success" role="progressbar" style={{ width: 270 }} aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+                            <div class="progress-bar progress-bar-striped bg-success" role="progressbar" style={{ width: 500 }} aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
                         </div>
 
-                        <h4 className="text-left m-3">ANGULAR 75%</h4>
+                        <h4 className="text-left m-3">NODE JS - EXPRESS - MONGODB <FontAwesomeIcon icon={faCode} /></h4>
                         <div class="progress m-3">
-                            <div class="progress-bar progress-bar-striped bg-danger" role="progressbar" style={{ width: 270 }} aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+                            <div class="progress-bar progress-bar-striped bg-info" role="progressbar" style={{ width: 500 }} aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
                         </div>
 
-                        <h4 className="text-left m-3">NODE JS - EXPRESS - MONGODB 75%</h4>
+                        <h4 className="text-left m-3">REACT JS - REDUX <FontAwesomeIcon icon={faNetworkWired} /> </h4>
                         <div class="progress m-3">
-                            <div class="progress-bar progress-bar-striped bg-primary" role="progressbar" style={{ width: 270 }} aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+                            <div class="progress-bar progress-bar-striped bg-danger" role="progressbar" style={{ width: 500 }} aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
                         </div>
 
-                        <h4 className="text-left m-3">MYSQL - POSTGRES 85%</h4>
+                        <h4 className="text-left m-3">FLUTTER <FontAwesomeIcon icon={faMobile} /> </h4>
                         <div class="progress m-3">
-                            <div class="progress-bar progress-bar-striped bg-success" role="progressbar" style={{ width: 290 }} aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+                            <div class="progress-bar progress-bar-striped bg-primary" role="progressbar" style={{ width: 500 }} aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
                         </div>
 
-                        <h4 className="text-left m-3">REACT JS - REDUX 75%</h4>
+                        <h4 className="text-left m-3">MYSQL - POSTGRES <FontAwesomeIcon icon={faDatabase} /></h4>
                         <div class="progress m-3">
-                            <div class="progress-bar progress-bar-striped bg-primary" role="progressbar" style={{ width: 270 }} aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+                            <div class="progress-bar progress-bar-striped bg-warning" role="progressbar" style={{ width: 500 }} aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
                         </div>
 
-                        <h4 className="text-left m-3">HTML - CSS - BOOTSTRAP 80%</h4>
+                        <h4 className="text-left m-3">GIT <FontAwesomeIcon icon={faCat} /> </h4>
                         <div class="progress m-3">
-                            <div class="progress-bar progress-bar-striped bg-warning" role="progressbar" style={{ width: 280 }} aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+                            <div class="progress-bar progress-bar-striped bg-info" role="progressbar" style={{ width: 500 }} aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
                         </div>
 
-                        <h4 className="text-left m-3">GIT 70%</h4>
+                        <h4 className="text-left m-3">Digital Ocean - AWS - Linux Servers <FontAwesomeIcon icon={faServer} /> </h4>
                         <div class="progress m-3">
-                            <div class="progress-bar progress-bar-striped bg-info" role="progressbar" style={{ width: 250 }} aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+                            <div class="progress-bar progress-bar-striped bg-success" role="progressbar" style={{ width: 500 }} aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
                         </div>
 
-                        <h4 className="text-left m-3">Digital Ocean - AWS - Heroku 75% </h4>
+                        <h4 className="text-left m-3">Agile Methodologies (SCRUM, XP) <FontAwesomeIcon icon={faScroll} /></h4>
                         <div class="progress m-3">
-                            <div class="progress-bar progress-bar-striped bg-success" role="progressbar" style={{ width: 270 }} aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
-                        </div>
-
-                        <h4 className="text-left m-3">Linux Servers 70%</h4>
-                        <div class="progress m-3">
-                            <div class="progress-bar progress-bar-striped bg-danger" role="progressbar" style={{ width: 250 }} aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
-                        </div>
-
-                        <h4 className="text-left m-3">Agile Methodologies - SCRUM 65%</h4>
-                        <div class="progress m-3">
-                            <div class="progress-bar progress-bar-striped bg-primary" role="progressbar" style={{ width: 240 }} aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+                            <div class="progress-bar progress-bar-striped bg-primary" role="progressbar" style={{ width: 500 }} aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
                         </div>
 
                     </div>

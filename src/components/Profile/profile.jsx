@@ -30,7 +30,7 @@ const Profile = () => {
                     <div className="text-white">
                         <h4 className="text-left m-3">SPRING BOOT - HIBERNATE  75%</h4>
                         <div class="progress m-3">
-                            <div class="progress-bar progress-bar-striped bg-success" role="progressbar" style={{ width: 270 }} aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+                            <div class="progress-bar progress-bar-striped bg-success" role="progressbar" style={{ width: 260 }} aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
                         </div>
 
                         <h4 className="text-left m-3">ANGULAR 75%</h4>
@@ -51,11 +51,6 @@ const Profile = () => {
                         <h4 className="text-left m-3">REACT JS - REDUX 75%</h4>
                         <div class="progress m-3">
                             <div class="progress-bar progress-bar-striped bg-primary" role="progressbar" style={{ width: 270 }} aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
-                        </div>
-
-                        <h4 className="text-left m-3">HTML - CSS - BOOTSTRAP 80%</h4>
-                        <div class="progress m-3">
-                            <div class="progress-bar progress-bar-striped bg-warning" role="progressbar" style={{ width: 280 }} aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
                         </div>
 
                         <h4 className="text-left m-3">GIT 70%</h4>

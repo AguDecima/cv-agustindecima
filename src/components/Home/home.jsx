@@ -75,7 +75,7 @@ const Home = () => {
                             Proyecto en desarrollo para la Universidad Nacional para el cual se usa Node JS, Express, Postgres, Bitbucket y Angular 7.x, . El mismo tiene 
                             como objetivo principalmente que los profesores y alumnos puedan reservar aulas por distintos motivos. Podran visualizar la disponibilidad,
                             recibir correos por modificaciones o aprobaciones de la reservas. Los administradores de cada Facultad podran establecer los horarios que estan ocupados
-                            los espacios por cursado de materias, dictado de cursos o parciales. Este proyecto actualmente esta en desarrollo, principalmente se esta trabajando con el backend.
+                            los espacios por cursado de materias, dictado de cursos o parciales.
                          </p>
                          <p><FontAwesomeIcon  icon={faArrowAltCircleRight}/> <b>Paginas Web: </b>
                             Paginas web estaticas realizas con React Js, Bootstrap y CSS y desplegadas en Heroku o Netlify.

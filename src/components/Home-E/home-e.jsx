@@ -11,15 +11,15 @@ const HomeE = () => {
         <div className="container">
             <div className="titulo">
                 <h1 class="display-3">Agustín Décima</h1>
-                <h1 className="mt-1 text-muted">Full Stack Developer</h1>
+                <h1 className="mt-1 text-muted">Developer</h1>
                 <hr/>
             </div>
 
             <div className="section">
                 <h1 class="display-5">PERSONAL PROFILE <FontAwesomeIcon icon={faIdCard} /></h1><hr/>
                 <h4 className="text-justify">
-                    I am a very dedicated and responsible person. I really like the challenges and constantly 
-                    demonstrate what I am capable of, throughout my life I carried out various activities which 
+                    I'm a very dedicated and responsible person. I really like the challenges and constantly 
+                    demonstrate what I'm capable of, throughout my life I carried out various activities which 
                     helped me develop qualities to develop in the best way. I have facility to learn and adapt quickly 
                     thanks to the self-taught personality that always characterized me. Sincere first and foremost when 
                     something I don't know, but I don't rest until I learn it and can solve it. I could write many more 
@@ -29,7 +29,44 @@ const HomeE = () => {
 
             <div className="section">
                 <h1 class="display-5">EXPERIENCE <FontAwesomeIcon  icon={faIndustry} /></h1><hr/>
-                <h2 className="text-primary text-rigth"><FontAwesomeIcon  icon={faNetworkWired} /> 2018-2019 <small class="text-muted">Municipal Revenue Office</small></h2>
+                
+                <h2 className="text-primary mt-3"><FontAwesomeIcon  icon={faNetworkWired} /> 2017 - Currently <small class="text-muted">Freelancer</small></h2>
+                <h4>
+                    - Work on temporary projects, mostly Web and Mobile. Technologies such as Android Studio (Java) 
+                    were used for Native Android applications with data consumption of an API, Spring Boot, Node JS, 
+                    MongoDB and Postgres for Backend with OAuth2 security, Angular for Web.
+                    <br/>
+                    <br/><FontAwesomeIcon  icon={faProjectDiagram} /> Projects:
+                    <div className="m-3">
+                         <p><FontAwesomeIcon  icon={faArrowAltCircleRight}/> <b>Web Billing System: </b>
+                         Project carried out with Spring boot, hiberate, Git and MySQL, Spring Security was 
+                         implemented together with Oauth2 for security, the system handles sales, sales details, 
+                         users with different permits, products. For the front-end, React JS, Redux is used together
+                        with Bootstrap for design, today this project is still supported and developed. It is deployed 
+                        in Digital Ocean. 
+                         </p>
+                         <p><FontAwesomeIcon  icon={faArrowAltCircleRight}/> <b>Mobile App Movies : </b> 
+                         Application for educational purposes developed in Flutter, the data of an API was
+                         consumed to get the movies with its detailed information.
+                         </p>
+                         <p><FontAwesomeIcon  icon={faArrowAltCircleRight}/> <b>UNT Space Reserve Web System: </b>
+                         Project under development for the National University for which Node JS, Express, Postgres, 
+                         Bitbucket and Angular 7.x is used. The main objective is that teachers and students can reserve 
+                         classrooms for different reasons. They can view availability, receive emails for modifications or 
+                         approvals of reservations. The administrators of each Faculty will be able to establish the schedules 
+                         that are occupied the spaces by courses of subjects, dictated of courses or partial.
+                         </p>
+                         <p><FontAwesomeIcon  icon={faArrowAltCircleRight}/> <b> Mobile App College Week: </b> 
+                         Application for college week, which was developed in Android Studio with Java, consuming 
+                         Firebase data, its operation was basic more than anything informative, of the schedule of activities.
+                         </p>
+                         <p><FontAwesomeIcon  icon={faArrowAltCircleRight}/> <b>Web Pages: </b>
+                         Static web pages made with React Js, Bootstrap and CSS and deployed in Heroku or Netlify.
+                         </p>
+                    </div>
+                </h4>
+
+                <h2 className="text-primary text-rigth"><FontAwesomeIcon  icon={faNetworkWired} /> 2018 - 2019 <small class="text-muted">Municipal Revenue Office</small></h2>
                 <h4>
                     - Perform work as a Full Stack programmer, making support and development of systems necessary 
                     to expedite tasks of the internal staff of the entity. Work with technologies such as Spring Boot, 
@@ -44,49 +81,13 @@ const HomeE = () => {
                          security. Angular 6.x was used for the Front-End.
                          </p>
                          <p><FontAwesomeIcon  icon={faArrowAltCircleRight}/> <b>Backend Procedures System: </b>
-                          In this project we worked with Spring Boot, hibernate and postgres, I had to manage an ABM 
+                          In this project we worked with Spring Boot, hibernate and postgres, I had to manage an CRUD 
                          of users who had assigned permissions, which determined what type of procedures the user 
                          could perform. In this way from the client application you could determine what options to 
                          display.
                          </p>
                     </div>
                         
-                </h4>
-                <h2 className="text-primary mt-3"><FontAwesomeIcon  icon={faNetworkWired} /> 2017-2020 <small class="text-muted">Freelancer</small></h2>
-                <h4>
-                    - Work on temporary projects, mostly Web and Mobile. Technologies such as Android Studio (Java) 
-                    were used for Native Android applications with data consumption of an API, Spring Boot, Node JS, 
-                    MongoDB and Postgres for Backend with OAuth2 security, Angular for Web.
-                    <br/>
-                    <br/><FontAwesomeIcon  icon={faProjectDiagram} /> Projects:
-                    <div className="m-3">
-                         <p><FontAwesomeIcon  icon={faArrowAltCircleRight}/> <b> Mobile App College Week: </b> 
-                         Application for college week, which was developed in Android Studio with Java, consuming 
-                         Firebase data, its operation was basic more than anything informative, of the schedule of activities.
-                         </p>
-                         <p><FontAwesomeIcon  icon={faArrowAltCircleRight}/> <b>Web Billing System: </b>
-                         Project carried out with Spring boot, hiberate, Git and MySQL, Spring Security was 
-                         implemented together with Oauth2 for security, the system handles sales, sales details, 
-                         users with different permits, products. For the front-end, React JS, Redux is used together
-                        with Bootstrap for design, today this project is still supported and developed. It is deployed 
-                        in Digital Ocean.
-                         </p>
-                         <p><FontAwesomeIcon  icon={faArrowAltCircleRight}/> <b>Private Neighborhood Desktop System: </b>
-                         Project carried out in Visual Basic for the management of employees, payment of expenses for lots 
-                         and public spaces of the different owners and tenants of the neighborhood. Visual Studio was used 
-                         with SQL Server Express to work locally.
-                         </p>
-                         <p><FontAwesomeIcon  icon={faArrowAltCircleRight}/> <b>UNT Space Reserve Web System: </b>
-                         Project under development for the National University for which Node JS, Express, Postgres, 
-                         Bitbucket and Angular 7.x is used. The main objective is that teachers and students can reserve 
-                         classrooms for different reasons. They can view availability, receive emails for modifications or 
-                         approvals of reservations. The administrators of each Faculty will be able to establish the schedules 
-                         that are occupied the spaces by courses of subjects, dictated of courses or partial.
-                         </p>
-                         <p><FontAwesomeIcon  icon={faArrowAltCircleRight}/> <b>Web Pages: </b>
-                         Static web pages made with React Js, Bootstrap and CSS and deployed in Heroku or Netlify.
-                         </p>
-                    </div>
                 </h4>
             </div>
 
@@ -100,6 +101,7 @@ const HomeE = () => {
                 <h1 class="display-5">OTHER DATA <FontAwesomeIcon  icon={faArchive} /></h1><hr/>
                 <h3><a className="text-muted" href="https://drive.google.com/file/d/1UUusky9MyncR9wH27YrfjouWUBPuGTgJ/view">- Java 111 Programmers Certification</a></h3>
                 <h3><a className="text-muted" href="https://drive.google.com/file/d/1Miw4apPPxZwSPgeF7tw8ripzAKrwl91r/view">- Android Course</a></h3>
+                <h3><a className="text-muted" href="https://www.udemy.com/course/swift_ios/">- IOS Swift Course </a></h3>
                 <h3 className="text-muted" >- Participant in programming tournaments (TAP, IEEE, RPC) and training 2018 of the Training Camp taught at the UBA (University of Buenos Aires).</h3>
                 <br/>
 
