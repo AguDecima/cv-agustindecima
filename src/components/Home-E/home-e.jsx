@@ -30,7 +30,22 @@ const HomeE = () => {
             <div className="section">
                 <h1 class="display-5">EXPERIENCE <FontAwesomeIcon  icon={faIndustry} /></h1><hr/>
                 
-                <h2 className="text-primary mt-3"><FontAwesomeIcon  icon={faNetworkWired} /> 2017 - Currently <small class="text-muted">Freelancer</small></h2>
+                <h2 className="text-primary mt-3"><FontAwesomeIcon  icon={faNetworkWired} /> 2020 - Currently <small class="text-muted">IncluIT - Naranja</small></h2>
+                <h4>
+                    - I'm currently working on a project for the company Naranja in which a collection 
+                    system is developed through a payment link or a webcheckout.
+                    <br/>
+                    <br/><FontAwesomeIcon  icon={faProjectDiagram} /> Projects:
+                    <div className="m-3">
+                         <p><FontAwesomeIcon  icon={faArrowAltCircleRight}/> <b>Payment system: </b>
+                         In this project we work with node js and serverless using cloud technologies 
+                         with aws (dynamo db, sqs, sns, api gateway), with an event-driven architecture. 
+                         Payzen is used to integrate payments with other cards 
+                         </p>
+                    </div>
+                </h4>
+
+                <h2 className="text-primary mt-3"><FontAwesomeIcon  icon={faNetworkWired} /> 2017 - Currently <small class="text-muted">Iconic Software</small></h2>
                 <h4>
                     - Work on temporary projects, mostly Web and Mobile. Technologies such as Android Studio (Java) 
                     were used for Native Android applications with data consumption of an API, Spring Boot, Node JS, 
