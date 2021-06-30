@@ -11,7 +11,7 @@ const HomeE = () => {
         <div className="container">
             <div className="titulo">
                 <h1 class="display-3">Agustín Décima</h1>
-                <h1 className="mt-1 text-muted">Developer</h1>
+                <h1 className="mt-1 text-muted">Software Engineer</h1>
                 <hr/>
             </div>
 
@@ -33,13 +33,15 @@ const HomeE = () => {
                 <h2 className="text-primary mt-3"><FontAwesomeIcon  icon={faNetworkWired} /> 2020 - Currently <small class="text-muted">IncluIT - Naranja</small></h2>
                 <h4>
                     - I'm currently working on a project for the company Naranja in which a collection 
-                    system is developed through a payment link or a webcheckout.
+                    system is developed through a payment link or a webcheckout. Leading a team and 
+                    taking architect roles. The objective is that a client can receive money from another 
+                    person by sending him a link or integrating by api and implementing his own form.
                     <br/>
                     <br/><FontAwesomeIcon  icon={faProjectDiagram} /> Projects:
                     <div className="m-3">
-                         <p><FontAwesomeIcon  icon={faArrowAltCircleRight}/> <b>Payment system: </b>
+                         <p><FontAwesomeIcon  icon={faArrowAltCircleRight}/> <b>API Payment: </b>
                          In this project we work with node js and serverless using cloud technologies 
-                         with aws (dynamo db, sqs, sns, api gateway), with an event-driven architecture. 
+                         with AWS (dynamo db, sqs, sns, api gateway), with an event-driven architecture. 
                          Payzen is used to integrate payments with other cards 
                          </p>
                     </div>
@@ -54,7 +56,7 @@ const HomeE = () => {
                     <br/><FontAwesomeIcon  icon={faProjectDiagram} /> Projects:
                     <div className="m-3">
                          <p><FontAwesomeIcon  icon={faArrowAltCircleRight}/> <b>Web Billing System: </b>
-                         Project carried out with Spring boot, hiberate, Git and MySQL, Spring Security was 
+                         Project carried out with Spring boot, hibernate, Git and MySQL, Spring Security was 
                          implemented together with Oauth2 for security, the system handles sales, sales details, 
                          users with different permits, products. For the front-end, React JS, Redux is used together
                         with Bootstrap for design, today this project is still supported and developed. It is deployed 
@@ -108,7 +110,7 @@ const HomeE = () => {
 
             <div className="section">
                 <h1 class="display-5">EDUCATION <FontAwesomeIcon  icon={faBook} /></h1><hr/>
-                <h2 className="text-warning"><FontAwesomeIcon  icon={faPencilAlt} /> 2014-2020 <small class="text-muted">University Programmer - UNT</small></h2>
+                <h2 className="text-warning"><FontAwesomeIcon  icon={faPencilAlt} /> 2014-2018 <small class="text-muted">University Programmer - UNT</small></h2>
                 <h2 className="text-warning"><FontAwesomeIcon  icon={faPencilAlt} /> 2006-2012 <small class="text-muted">Bachelor of Business Administration - Col. San Francisco</small></h2>
             </div>
 

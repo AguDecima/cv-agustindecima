@@ -79,8 +79,9 @@ const ProfileE = () => {
                 <div className="margen">
                     <button type="button" class="btn btn-success btn-lg m-3">LANGUAGES</button>
                     <div className="text-white text-canter m-3">
-                        <h4> <FontAwesomeIcon icon={faLanguage} /> Native Spanish</h4>
-                        <h4> <FontAwesomeIcon icon={faLanguage} /> English - Middle Level </h4>
+                        <h4> <FontAwesomeIcon icon={faLanguage} /> Spanish - Native </h4>
+                        <h4> <FontAwesomeIcon icon={faLanguage} /> English - Intermediate Level </h4>
+                        <h4> <FontAwesomeIcon icon={faLanguage} /> German - Elementary Level </h4>
                     </div>
                 </div>
 
@@ -91,7 +92,7 @@ const ProfileE = () => {
                     </div>
                 </div>
 
-               
+
             </div>
 
         </div>
