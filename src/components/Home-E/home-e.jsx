@@ -32,7 +32,7 @@ const HomeE = () => {
                 
                 <h2 className="text-primary mt-3"><FontAwesomeIcon  icon={faNetworkWired} /> 2020 - Currently <small class="text-muted">IncluIT - Naranja</small></h2>
                 <h4>
-                    - I'm currently working on a project for the company Naranja in which a collection 
+                    - I'm currently working on a project for the company Naranja X in which a collection 
                     system is developed through a payment link or a webcheckout. Leading a team and 
                     taking architect roles. The objective is that a client can receive money from another 
                     person by sending him a link or integrating by api and implementing his own form.
